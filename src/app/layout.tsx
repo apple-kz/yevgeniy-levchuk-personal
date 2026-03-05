@@ -16,15 +16,24 @@ export const metadata: Metadata = {
   description: "Персональный эдвайзер",
 };
 
+import { ThemeProvider } from "../components/theme-provider";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className="scroll-smooth">
+    <html lang="ru" className="scroll-smooth" suppressHydrationWarning>
       <body className={`${cormorant.variable} antialiased`}>
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

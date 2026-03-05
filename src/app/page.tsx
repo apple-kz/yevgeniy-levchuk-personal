@@ -1,15 +1,19 @@
 import { ReactNode } from "react";
 import { ArrowRight } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
   return (
-    <main className="w-full h-full text-center">
+    <main className="w-full h-full text-center relative selection:bg-black selection:text-white dark:selection:bg-white dark:selection:text-black">
       {/* HEADER */}
       <header className="py-16 px-8 relative z-10">
-        <div className="max-w-[680px] mx-auto">
+        <div className="max-w-[680px] mx-auto flex justify-between items-center sm:block relative">
           <span className="text-xs tracking-[0.2em] uppercase text-gray-500">
             Евгений Левчук
           </span>
+          <div className="sm:absolute sm:right-0 sm:top-0 h-full flex items-center">
+            <ThemeToggle />
+          </div>
         </div>
       </header>
 
@@ -71,12 +75,12 @@ export default function Home() {
       </section>
 
       {/* BLOCK 3: О СЕБЕ */}
-      <section className="py-32 px-8 bg-[#F9F9F9]">
+      <section className="py-32 px-8 bg-zinc-50 dark:bg-zinc-950 transition-colors duration-400">
         <div className="max-w-[680px] mx-auto text-left">
           <span className="text-xs tracking-widest uppercase text-gray-400 font-semibold mb-6 block">Кто я</span>
           <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight">Меня зовут Евгений.</h2>
 
-          <div className="text-lg md:text-xl text-gray-700 font-light leading-relaxed space-y-8">
+          <div className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-light leading-relaxed space-y-8">
             <p>
               Я работаю с людьми больше двадцати лет. Не по одной методологии — по
               многим, и поверх них. Психотерапия, групповая работа, коучинг. Но важнее
@@ -89,8 +93,8 @@ export default function Home() {
               соцсети. Работаю с немногими.
             </p>
 
-            <div className="mt-16 bg-white p-8 md:p-12 border border-gray-100 rounded-sm">
-              <p className="font-serif italic text-xl md:text-2xl text-gray-600">
+            <div className="mt-16 bg-white dark:bg-black p-8 md:p-12 border border-gray-100 dark:border-gray-800 rounded-sm transition-colors duration-400">
+              <p className="font-serif italic text-xl md:text-2xl text-gray-600 dark:text-gray-400">
                 Моё главное убеждение: доверие — основа любого движения. Без него не
                 работает ничто. Именно с него я и начинаю.
               </p>
@@ -105,8 +109,8 @@ export default function Home() {
           <span className="text-xs tracking-widest uppercase text-gray-400 font-semibold mb-6 block">Моя роль</span>
           <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight">Я иду рядом. Не впереди.</h2>
 
-          <div className="text-lg md:text-xl text-gray-700 font-light leading-relaxed space-y-8">
-            <p className="text-black font-normal">Я не знаю, куда тебе идти. Ты знаешь.</p>
+          <div className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-light leading-relaxed space-y-8">
+            <p className="text-black dark:text-white font-normal">Я не знаю, куда тебе идти. Ты знаешь.</p>
             <p>
               Моя работа — создать место, где ты можешь быть собой достаточно долго,
               чтобы это наконец услышать. Без оценки. Без повестки. Без готовых
@@ -116,7 +120,7 @@ export default function Home() {
               Самый важный момент в нашей работе — когда ты впервые говоришь вслух
               то, что давно знал. Именно тогда что-то меняется по-настоящему.
             </p>
-            <p className="pt-4 font-normal text-black">
+            <p className="pt-4 font-normal text-black dark:text-white">
               Это твой путь. Я рядом, пока он нужен.
             </p>
           </div>
@@ -124,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* BLOCK 5: ПРОЦЕСС */}
-      <section className="py-32 px-8 border-t border-gray-100">
+      <section className="py-32 px-8 border-t border-gray-100 dark:border-gray-900">
         <div className="max-w-[680px] mx-auto text-left">
           <span className="text-xs tracking-widest uppercase text-gray-400 font-semibold mb-6 block">Как это устроено</span>
           <h2 className="text-3xl md:text-4xl mb-6 font-serif tracking-tight">Не этапы. Движение — у каждого своё.</h2>
@@ -146,7 +150,7 @@ export default function Home() {
             </ProcessStep>
           </div>
 
-          <div className="mt-20 text-lg md:text-xl font-light text-gray-600 space-y-4">
+          <div className="mt-20 text-lg md:text-xl font-light text-gray-600 dark:text-gray-400 space-y-4">
             <p>— Я не даю домашних заданий, если ты их не хочешь.</p>
             <p>— Я не говорю тебе, что делать.</p>
             <p>— Я не исчезаю после первой встречи.</p>
@@ -155,7 +159,7 @@ export default function Home() {
       </section>
 
       {/* BLOCK 6: С КЕМ РАБОТАЮ */}
-      <section className="py-32 px-8 bg-black text-white">
+      <section className="py-32 px-8 bg-black dark:bg-[#0a0a0a] text-white transition-colors duration-400">
         <div className="max-w-[680px] mx-auto text-left">
           <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight text-white">Не для всех — и это честно.</h2>
 
@@ -165,7 +169,7 @@ export default function Home() {
             <p className="opacity-70">— Не с теми, кто пришёл за подтверждением уже готового решения.</p>
             <p className="opacity-70">— Не с теми, кто хочет быстрый результат без готовности останавливаться.</p>
 
-            <div className="mt-16 p-8 border border-gray-800">
+            <div className="mt-16 p-8 border border-gray-800 dark:border-gray-700">
               <p className="font-serif italic text-2xl text-white">
                 Если читая это ты думаешь «это точно про меня» — напиши. Первый
                 разговор ни к чему не обязывает.
