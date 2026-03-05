@@ -20,10 +20,11 @@ export default function Home() {
       {/* BLOCK 1: HERO */}
       <section className="min-h-screen flex flex-col justify-center items-center px-8 relative -mt-32">
         <div className="max-w-[680px] w-full">
-          <h1 className="text-5xl md:text-6xl lg:text-[72px] leading-[1.05] tracking-tight mb-16 font-serif">
-            Ты давно знаешь.<br />
-            Просто пока не произносишь<br />
-            это вслух.
+          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight mb-12 font-serif">
+            Наконец-то без лишнего шума.<br />
+            Ты устал от советов, техник и мотивации?<br />
+            Я работаю иначе - медленно, внимательно, без готовых ответов.<br />
+            Только честная работа с тем, что есть.
           </h1>
 
           <p className="text-xl md:text-2xl font-light text-gray-700 mb-16 mx-auto leading-relaxed">
@@ -68,10 +69,8 @@ export default function Home() {
           <div className="mt-24 pt-12 border-t border-gray-100 dark:border-gray-900">
             <div className="pl-8 md:pl-10 border-l-2 border-gray-200 dark:border-gray-800 py-4">
               <p className="text-2xl md:text-3xl font-serif text-gray-600 dark:text-gray-400 leading-snug" style={{ fontFamily: 'Georgia, serif' }}>
-                Наконец-то без лишнего шума.<br />
-                Ты устал от советов, техник и мотивации?<br />
-                Я работаю иначе - медленно, внимательно, без готовых ответов.<br />
-                Только честная работа с тем, что есть.
+                «Чаще всего мы уже знаем.<br />
+                Просто страшно произнести это вслух. Даже себе.»
               </p>
             </div>
           </div>
