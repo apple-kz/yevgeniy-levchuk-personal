@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className={`${cormorant.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="theme-parchment"
           enableSystem={false}
           disableTransitionOnChange
         >

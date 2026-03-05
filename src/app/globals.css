@@ -4,18 +4,95 @@
   --font-serif: "Cormorant Garamond", serif;
   --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  --color-fg: var(--fg);
-  --color-bg: var(--bg);
+  --color-fg: var(--text-base);
+  --color-bg: var(--bg-base);
+  --color-muted: var(--text-muted);
+  --color-faint: var(--text-faint);
+  --color-inverted-bg: var(--bg-inverted);
+  --color-inverted-fg: var(--text-inverted);
+  --color-panel: var(--bg-panel);
+  --color-alt: var(--bg-alt);
+  --color-line: var(--border-base);
+  --color-line-heavy: var(--border-heavy);
+  --color-line-inverted: var(--border-inverted);
 }
 
 :root {
-  --bg: #FFFFFF;
-  --fg: #000000;
+  --bg-base: #FFFFFF;
+  --text-base: #000000;
+  --text-muted: #374151;
+  --text-faint: #9CA3AF;
+  --bg-inverted: #0A0A0A;
+  --text-inverted: #FFFFFF;
+  --bg-panel: #FFFFFF;
+  --bg-alt: #F9FAFB;
+  --border-base: #F3F4F6;
+  --border-heavy: #E5E7EB;
+  --border-inverted: #1F2937;
 }
 
-.dark {
-  --bg: #1c1917;
-  --fg: #e7e5e4;
+/* 1. Книжный белый (Same as root for now) */
+html.theme-white,
+html[data-theme="theme-white"] {
+  --bg-base: #FFFFFF;
+  --text-base: #000000;
+  --text-muted: #374151;
+  --text-faint: #9CA3AF;
+  --bg-inverted: #0A0A0A;
+  --text-inverted: #FFFFFF;
+  --bg-panel: #FFFFFF;
+  --bg-alt: #F9FAFB;
+  --border-base: #F3F4F6;
+  --border-heavy: #E5E7EB;
+  --border-inverted: #1F2937;
+}
+
+/* 2. Теплый камень */
+html.theme-stone,
+html[data-theme="theme-stone"] {
+  --bg-base: #1C1917;
+  --text-base: #E7E5E4;
+  --text-muted: #A8A29E;
+  --text-faint: #78716C;
+  --bg-inverted: #0C0A09;
+  --text-inverted: #F5F5F4;
+  --bg-panel: #292524;
+  --bg-alt: #171412;
+  --border-base: #292524;
+  --border-heavy: #44403C;
+  --border-inverted: #1C1917;
+}
+
+/* 3. Пергамент */
+html.theme-parchment,
+html[data-theme="theme-parchment"] {
+  --bg-base: #FDFBF7;
+  --text-base: #2C2A29;
+  --text-muted: #5C5855;
+  --text-faint: #A39E98;
+  --bg-inverted: #1A1918;
+  --text-inverted: #FDFBF7;
+  --bg-panel: #FFFFFF;
+  --bg-alt: #F4F1EB;
+  --border-base: #EBE5D9;
+  --border-heavy: #D6D0C4;
+  --border-inverted: #3D3936;
+}
+
+/* 4. Глубокий синий (Кабинет) */
+html.theme-slate,
+html[data-theme="theme-slate"] {
+  --bg-base: #0F172A;
+  --text-base: #F8FAFC;
+  --text-muted: #94A3B8;
+  --text-faint: #64748B;
+  --bg-inverted: #020617;
+  --text-inverted: #F8FAFC;
+  --bg-panel: #1E293B;
+  --bg-alt: #0B1120;
+  --border-base: #1E293B;
+  --border-heavy: #334155;
+  --border-inverted: #0F172A;
 }
 
 body {
@@ -38,6 +115,6 @@ h6,
 }
 
 ::selection {
-  background-color: var(--color-fg);
-  color: var(--color-bg);
+  background-color: var(--color-inverted-bg);
+  color: var(--color-inverted-fg);
 }

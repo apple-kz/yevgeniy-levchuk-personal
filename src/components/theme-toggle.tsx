@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import { useTheme } from "next-themes"
-import { Moon, Sun } from "lucide-react"
 
 export function ThemeToggle({ className = "" }: { className?: string }) {
     const { theme, setTheme } = useTheme()
@@ -12,17 +11,27 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
         setMounted(true)
     }, [])
 
-    if (!mounted) {
-        return <div className={`w-[16px] h-[16px] ${className}`} /> // placeholder prevents layout shift
-    }
+    if (!mounted) return null
+
+    const options = [
+        { id: "theme-white", label: "Простой белый" },
+        { id: "theme-stone", label: "Теплый камень" },
+        { id: "theme-parchment", label: "Пергамент" },
+        { id: "theme-slate", label: "Глубокий синий" },
+    ]
 
     return (
-        <button
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className={`opacity-40 hover:opacity-100 transition-opacity flex items-center justify-center ${className}`}
-            aria-label="Toggle theme"
-        >
-            {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
-        </button>
+        <div className={`fixed bottom-4 right-4 p-4 bg-[var(--bg-panel)] border border-[var(--border-line)] shadow-2xl rounded flex flex-col gap-2 z-50 text-sm ${className}`}>
+            <div className="text-[var(--text-faint)] font-medium mb-2">Тестирование фона:</div>
+            {options.map(opt => (
+                <button
+                    key={opt.id}
+                    onClick={() => setTheme(opt.id)}
+                    className={`text-left px-3 py-1 rounded transition-colors ${theme === opt.id ? 'bg-[color:var(--color-inverted-bg)] text-[color:var(--color-inverted-fg)]' : 'hover:bg-[color:var(--color-alt)] text-[color:var(--color-fg)]'}`}
+                >
+                    {opt.label}
+                </button>
+            ))}
+        </div>
     )
 }
