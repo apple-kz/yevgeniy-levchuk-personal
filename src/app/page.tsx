@@ -65,11 +65,13 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-24 pt-12 border-t border-gray-100">
-            <p className="text-2xl md:text-3xl font-serif text-gray-600 leading-snug">
-              «Чаще всего мы уже знаем.<br />
-              Просто страшно произнести это вслух. Даже себе.»
-            </p>
+          <div className="mt-24 pt-12 border-t border-gray-100 dark:border-gray-900">
+            <div className="pl-8 md:pl-10 border-l-2 border-gray-200 dark:border-gray-800 py-4">
+              <p className="text-2xl md:text-3xl font-serif text-gray-600 dark:text-gray-400 leading-snug" style={{ fontFamily: 'Georgia, serif' }}>
+                «Чаще всего мы уже знаем.<br />
+                Просто страшно произнести это вслух. Даже себе.»
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -89,8 +91,8 @@ export default function Home() {
             </p>
             <p>
               Я думаю в движении. Восстанавливаюсь в тишине и одиночестве. Люблю
-              музыку - ту, что создаёт пространство, а не заполняет его. Не веду
-              соцсети. Работаю с немногими.
+              музыку - ту, что создаёт пространство, а не заполняет его. Не строю
+              публичный образ. Работаю с немногими.
             </p>
 
             <div className="mt-16 bg-white dark:bg-black p-8 md:p-12 border border-gray-100 dark:border-gray-800 rounded-sm transition-colors duration-400">
@@ -198,14 +200,66 @@ export default function Home() {
             </FormatItem>
           </div>
 
-          <div className="mt-16 text-sm tracking-widest uppercase text-gray-500 pb-4 border-b border-gray-200 inline-block">
-            Стоимость - по запросу. Онлайн. Отвечаю лично.
+          <div className="mt-16 text-sm tracking-widest uppercase text-gray-500 pb-4 border-b border-gray-200 dark:border-gray-800 inline-block">
+            Одна встреча - от 50 000 ₸. Системная работа - по запросу. Онлайн. Отвечаю лично.
+          </div>
+
+          <div className="mt-12 text-sm text-gray-400 font-light">
+            <p>Работаете с командой или ищете внешний взгляд на бизнес-задачу?</p>
+            <a href="/business" className="inline-block mt-2 hover:text-black dark:hover:text-white transition-colors">
+              → Страница для бизнеса
+            </a>
           </div>
         </div>
       </section>
 
-      {/* BLOCK 8 / 9: КОНТАКТЫ & ПОДВАЛ */}
-      <footer id="contact" className="pt-32 pb-16 px-8 border-t border-gray-100">
+      {/* BLOCK 8: FAQ */}
+      <section className="py-32 px-8 bg-zinc-50 dark:bg-zinc-950/50">
+        <div className="max-w-[680px] mx-auto text-left">
+          <span className="text-xs tracking-widest uppercase text-gray-400 font-semibold mb-12 block">Частые вопросы</span>
+          <div className="space-y-12">
+            <div>
+              <h3 className="text-xl mb-3 font-medium">Ты коуч или психолог?</h3>
+              <p className="text-lg text-gray-600 dark:text-gray-400 font-light leading-relaxed">
+                Ни то, ни другое в чистом виде. Есть образование в психотерапии и опыт коучинга - но я не работаю по одной методологии. Мне важнее понять тебя, чем применить технику.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl mb-3 font-medium">Это терапия?</h3>
+              <p className="text-lg text-gray-600 dark:text-gray-400 font-light leading-relaxed">
+                Не в клиническом смысле. Я работаю с людьми, у которых всё в порядке снаружи - но что-то важное перестало ощущаться своим.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl mb-3 font-medium">Что будет на первой встрече?</h3>
+              <p className="text-lg text-gray-600 dark:text-gray-400 font-light leading-relaxed">
+                Разговор. Я буду слушать - без оценки и без повестки. Ты сам почувствуешь, есть ли смысл продолжать.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl mb-3 font-medium">Я не знаю, с чем именно прийти. Это нормально?</h3>
+              <p className="text-lg text-gray-600 dark:text-gray-400 font-light leading-relaxed">
+                Да. Большинство приходит именно так - с ощущением, что что-то не так, но без чёткого запроса. Это хорошая точка входа.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl mb-3 font-medium">Сколько времени займёт работа?</h3>
+              <p className="text-lg text-gray-600 dark:text-gray-400 font-light leading-relaxed">
+                Зависит от запроса. Иногда одна встреча даёт ясность. Иногда нужны месяцы. Я не тороплю и не растягиваю.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl mb-3 font-medium">Ты работаешь онлайн?</h3>
+              <p className="text-lg text-gray-600 dark:text-gray-400 font-light leading-relaxed">
+                Да. Видео или голос - как тебе удобнее.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BLOCK 9: КОНТАКТЫ & ПОДВАЛ */}
+      <footer id="contact" className="pt-32 pb-16 px-8 border-t border-gray-100 dark:border-gray-900">
         <div className="max-w-[680px] mx-auto text-center">
           <h2 className="text-3xl md:text-4xl mb-10 font-serif tracking-tight">Просто напиши.</h2>
           <div className="text-lg font-light text-gray-600 mb-16 space-y-2">
@@ -223,7 +277,7 @@ export default function Home() {
           </div>
 
           <div className="text-xs tracking-wider text-gray-400 font-light mt-32">
-            КОНФИДЕНЦИАЛЬНОСТЬ - ОСНОВА РАБОТЫ, НЕ ФОРМАЛЬНОСТЬ.<br /><br />
+            Конфиденциальность - основа работы, не формальность.<br /><br />
             © {new Date().getFullYear()} Евгений Левчук
           </div>
         </div>
