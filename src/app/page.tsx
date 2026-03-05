@@ -54,19 +54,19 @@ export default function Home() {
           <div className="text-xl text-gray-700 font-light leading-relaxed space-y-6">
             <p>
               Что придёт правильный момент. Нужная книга. Нужный человек.<br />
-              И тогда — щелчок, и всё встанет на свои места.
+              И тогда - щелчок, и всё встанет на свои места.
             </p>
             <p className="pt-8">
               Я не обещаю щелчка.
             </p>
             <p>
-              Я предлагаю кое-что другое — пространство, в котором можно наконец
+              Я предлагаю кое-что другое - пространство, в котором можно наконец
               сказать себе правду.
             </p>
           </div>
 
           <div className="mt-24 pt-12 border-t border-gray-100">
-            <p className="text-2xl md:text-3xl font-serif text-gray-600 italic leading-snug">
+            <p className="text-2xl md:text-3xl font-serif text-gray-600 leading-snug">
               «Чаще всего мы уже знаем.<br />
               Просто страшно произнести это вслух. Даже себе.»
             </p>
@@ -82,20 +82,20 @@ export default function Home() {
 
           <div className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-light leading-relaxed space-y-8">
             <p>
-              Я работаю с людьми больше двадцати лет. Не по одной методологии — по
+              Я работаю с людьми больше двадцати лет. Не по одной методологии - по
               многим, и поверх них. Психотерапия, групповая работа, коучинг. Но важнее
-              этого — то, что я видел: много стран, много людей в разных точках
+              этого - то, что я видел: много стран, много людей в разных точках
               своей жизни, много моментов, когда что-то наконец сдвигается.
             </p>
             <p>
               Я думаю в движении. Восстанавливаюсь в тишине и одиночестве. Люблю
-              музыку — ту, что создаёт пространство, а не заполняет его. Не веду
+              музыку - ту, что создаёт пространство, а не заполняет его. Не веду
               соцсети. Работаю с немногими.
             </p>
 
             <div className="mt-16 bg-white dark:bg-black p-8 md:p-12 border border-gray-100 dark:border-gray-800 rounded-sm transition-colors duration-400">
-              <p className="font-serif italic text-xl md:text-2xl text-gray-600 dark:text-gray-400">
-                Моё главное убеждение: доверие — основа любого движения. Без него не
+              <p className="font-serif text-xl md:text-2xl text-gray-600 dark:text-gray-400">
+                Моё главное убеждение: доверие - основа любого движения. Без него не
                 работает ничто. Именно с него я и начинаю.
               </p>
             </div>
@@ -112,12 +112,12 @@ export default function Home() {
           <div className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-light leading-relaxed space-y-8">
             <p className="text-black dark:text-white font-normal">Я не знаю, куда тебе идти. Ты знаешь.</p>
             <p>
-              Моя работа — создать место, где ты можешь быть собой достаточно долго,
+              Моя работа - создать место, где ты можешь быть собой достаточно долго,
               чтобы это наконец услышать. Без оценки. Без повестки. Без готовых
               ответов.
             </p>
             <p>
-              Самый важный момент в нашей работе — когда ты впервые говоришь вслух
+              Самый важный момент в нашей работе - когда ты впервые говоришь вслух
               то, что давно знал. Именно тогда что-то меняется по-настоящему.
             </p>
             <p className="pt-4 font-normal text-black dark:text-white">
@@ -131,29 +131,29 @@ export default function Home() {
       <section className="py-32 px-8 border-t border-gray-100 dark:border-gray-900">
         <div className="max-w-[680px] mx-auto text-left">
           <span className="text-xs tracking-widest uppercase text-gray-400 font-semibold mb-6 block">Как это устроено</span>
-          <h2 className="text-3xl md:text-4xl mb-6 font-serif tracking-tight">Не этапы. Движение — у каждого своё.</h2>
+          <h2 className="text-3xl md:text-4xl mb-6 font-serif tracking-tight">Не этапы. Движение - у каждого своё.</h2>
 
           <div className="mt-16 space-y-16">
             <ProcessStep num="01" title="Диагностика">
-              Понять, что происходит на самом деле — не то, что кажется. Без спешки
+              Понять, что происходит на самом деле - не то, что кажется. Без спешки
               и без навязанных рамок. Иногда это самое ценное, что мы делаем вместе.
             </ProcessStep>
 
             <ProcessStep num="02" title="Настройка">
               Найти, где что-то разрегулировалось. В том, как ты думаешь, принимаешь
-              решения, относишься к себе. Работать именно с этим — не с симптомами поверх.
+              решения, относишься к себе. Работать именно с этим - не с симптомами поверх.
             </ProcessStep>
 
             <ProcessStep num="03" title="Сопровождение">
-              Я остаюсь рядом, пока идёт процесс. Изменения требуют времени — и
+              Я остаюсь рядом, пока идёт процесс. Изменения требуют времени - и
               кто-то должен быть рядом без спешки и без оценки.
             </ProcessStep>
           </div>
 
           <div className="mt-20 text-lg md:text-xl font-light text-gray-600 dark:text-gray-400 space-y-4">
-            <p>— Я не даю домашних заданий, если ты их не хочешь.</p>
-            <p>— Я не говорю тебе, что делать.</p>
-            <p>— Я не исчезаю после первой встречи.</p>
+            <p>- Я не даю домашних заданий, если ты их не хочешь.</p>
+            <p>- Я не говорю тебе, что делать.</p>
+            <p>- Я не исчезаю после первой встречи.</p>
           </div>
         </div>
       </section>
@@ -161,17 +161,17 @@ export default function Home() {
       {/* BLOCK 6: С КЕМ РАБОТАЮ */}
       <section className="py-32 px-8 bg-black dark:bg-[#0a0a0a] text-white transition-colors duration-400">
         <div className="max-w-[680px] mx-auto text-left">
-          <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight text-white">Не для всех — и это честно.</h2>
+          <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight text-white">Не для всех - и это честно.</h2>
 
           <div className="text-lg md:text-xl text-gray-300 font-light leading-relaxed space-y-6">
             <p>Я работаю с теми, кто готов к честному разговору с собой.</p>
-            <p className="opacity-70">— Не с теми, кто ждёт, что я скажу, что делать.</p>
-            <p className="opacity-70">— Не с теми, кто пришёл за подтверждением уже готового решения.</p>
-            <p className="opacity-70">— Не с теми, кто хочет быстрый результат без готовности останавливаться.</p>
+            <p className="opacity-70">- Не с теми, кто ждёт, что я скажу, что делать.</p>
+            <p className="opacity-70">- Не с теми, кто пришёл за подтверждением уже готового решения.</p>
+            <p className="opacity-70">- Не с теми, кто хочет быстрый результат без готовности останавливаться.</p>
 
             <div className="mt-16 p-8 border border-gray-800 dark:border-gray-700">
-              <p className="font-serif italic text-2xl text-white">
-                Если читая это ты думаешь «это точно про меня» — напиши. Первый
+              <p className="font-serif text-2xl text-white">
+                Если читая это ты думаешь «это точно про меня» - напиши. Первый
                 разговор ни к чему не обязывает.
               </p>
             </div>
@@ -186,7 +186,7 @@ export default function Home() {
 
           <div className="space-y-16">
             <FormatItem title="Одна встреча">
-              <p>50–60 минут. Чтобы разобраться в конкретной ситуации или почувствовать, как я работаю.</p>
+              <p>50-60 минут. Чтобы разобраться в конкретной ситуации или почувствовать, как я работаю.</p>
             </FormatItem>
 
             <FormatItem title="Системная работа">
@@ -194,12 +194,12 @@ export default function Home() {
             </FormatItem>
 
             <FormatItem title="Встреча по бизнесу">
-              <p>90 минут. Для руководителей и предпринимателей — взгляд со стороны без корпоративного языка и готовых решений.</p>
+              <p>90 минут. Для руководителей и предпринимателей - взгляд со стороны без корпоративного языка и готовых решений.</p>
             </FormatItem>
           </div>
 
           <div className="mt-16 text-sm tracking-widest uppercase text-gray-500 pb-4 border-b border-gray-200 inline-block">
-            Стоимость — по запросу. Онлайн. Отвечаю лично.
+            Стоимость - по запросу. Онлайн. Отвечаю лично.
           </div>
         </div>
       </section>
@@ -209,7 +209,7 @@ export default function Home() {
         <div className="max-w-[680px] mx-auto text-center">
           <h2 className="text-3xl md:text-4xl mb-10 font-serif tracking-tight">Просто напиши.</h2>
           <div className="text-lg font-light text-gray-600 mb-16 space-y-2">
-            <p>Если что-то отозвалось — этого достаточно.</p>
+            <p>Если что-то отозвалось - этого достаточно.</p>
             <p>Я отвечаю лично. Без менеджеров, без воронок, без автоответов.</p>
           </div>
 
@@ -223,7 +223,7 @@ export default function Home() {
           </div>
 
           <div className="text-xs tracking-wider text-gray-400 font-light mt-32">
-            КОНФИДЕНЦИАЛЬНОСТЬ — ОСНОВА РАБОТЫ, НЕ ФОРМАЛЬНОСТЬ.<br /><br />
+            КОНФИДЕНЦИАЛЬНОСТЬ - ОСНОВА РАБОТЫ, НЕ ФОРМАЛЬНОСТЬ.<br /><br />
             © {new Date().getFullYear()} Евгений Левчук
           </div>
         </div>
