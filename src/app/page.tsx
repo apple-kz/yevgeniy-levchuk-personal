@@ -68,9 +68,10 @@ export default function Home() {
           <div className="mt-24 pt-12 border-t border-gray-100 dark:border-gray-900">
             <div className="pl-8 md:pl-10 border-l-2 border-gray-200 dark:border-gray-800 py-4">
               <p className="text-2xl md:text-3xl font-serif text-gray-600 dark:text-gray-400 leading-snug" style={{ fontFamily: 'Georgia, serif' }}>
-                «Ты давно знаешь.<br />
-                Просто пока не произносишь<br />
-                это вслух.»
+                Наконец-то без лишнего шума.<br />
+                Ты устал от советов, техник и мотивации?<br />
+                Я работаю иначе - медленно, внимательно, без готовых ответов.<br />
+                Только честная работа с тем, что есть.
               </p>
             </div>
           </div>
