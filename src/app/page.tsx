@@ -19,12 +19,12 @@ export default function Home() {
 
       {/* BLOCK 1: HERO */}
       <section className="min-h-screen flex flex-col justify-center items-center px-8 relative -mt-32">
-        <div className="max-w-[680px] w-full">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight mb-8 font-serif">
+        <div className="w-full max-w-[1200px] lg:w-max">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight mb-8 font-serif text-black dark:text-white md:whitespace-nowrap">
             Наконец-то без лишнего шума.
           </h1>
 
-          <div className="text-xl md:text-2xl font-light text-gray-700 dark:text-gray-300 mb-16 space-y-2 leading-relaxed">
+          <div className="text-xl md:text-2xl font-normal text-gray-900 dark:text-gray-100 mb-16 space-y-3 leading-relaxed md:whitespace-nowrap">
             <p>Ты устал от советов, техник и мотивации?</p>
             <p>Я работаю иначе - медленно, внимательно, без готовых ответов.</p>
             <p>Только честная работа с тем, что есть.</p>
@@ -33,11 +33,11 @@ export default function Home() {
           <div className="mt-8 flex flex-col items-start md:items-center">
             <a
               href="#contact"
-              className="inline-flex items-center gap-3 text-sm tracking-[0.15em] uppercase hover:opacity-50 transition-opacity"
+              className="inline-flex items-center gap-3 text-sm tracking-[0.15em] uppercase hover:opacity-50 transition-opacity text-black dark:text-white"
             >
               Написать Евгению <ArrowRight size={16} />
             </a>
-            <p className="text-xs tracking-wide text-gray-400 mt-6 font-light">
+            <p className="text-xs tracking-wide text-gray-500 mt-6 font-medium">
               Telegram · WhatsApp · первый разговор ни к чему не обязывает
             </p>
           </div>
