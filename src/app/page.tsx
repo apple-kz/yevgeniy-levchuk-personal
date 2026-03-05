@@ -20,19 +20,17 @@ export default function Home() {
       {/* BLOCK 1: HERO */}
       <section className="min-h-screen flex flex-col justify-center items-center px-8 relative -mt-32">
         <div className="max-w-[680px] w-full">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight mb-12 font-serif">
-            Наконец-то без лишнего шума.<br />
-            Ты устал от советов, техник и мотивации?<br />
-            Я работаю иначе - медленно, внимательно, без готовых ответов.<br />
-            Только честная работа с тем, что есть.
+          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight mb-8 font-serif">
+            Наконец-то без лишнего шума.
           </h1>
 
-          <p className="text-xl md:text-2xl font-light text-gray-700 mb-16 mx-auto leading-relaxed">
-            Я создаю место, где это можно сделать.<br />
-            Без спешки. Без чуда. Без чужих ответов.
-          </p>
+          <div className="text-xl md:text-2xl font-light text-gray-700 dark:text-gray-300 mb-16 space-y-2 leading-relaxed">
+            <p>Ты устал от советов, техник и мотивации?</p>
+            <p>Я работаю иначе - медленно, внимательно, без готовых ответов.</p>
+            <p>Только честная работа с тем, что есть.</p>
+          </div>
 
-          <div className="mt-8 flex flex-col items-center">
+          <div className="mt-8 flex flex-col items-start md:items-center">
             <a
               href="#contact"
               className="inline-flex items-center gap-3 text-sm tracking-[0.15em] uppercase hover:opacity-50 transition-opacity"
