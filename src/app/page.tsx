@@ -75,8 +75,8 @@ export default function Home() {
 
             <div className="mt-16 bg-[color:var(--color-panel)] p-8 md:p-12 border border-[color:var(--color-line)] rounded-sm transition-colors duration-400">
               <p className="font-serif text-xl md:text-2xl text-[color:var(--color-muted)]">
-                Моё главное убеждение: доверие — основа любого движения. Без него не
-                работает ничто. Именно с него я и начинаю.
+                Всё начинается с доверия.<br />
+                Не как принцип — как условие.
               </p>
             </div>
           </div>
