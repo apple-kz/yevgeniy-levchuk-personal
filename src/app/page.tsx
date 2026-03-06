@@ -152,9 +152,12 @@ export default function Home() {
       {/* BLOCK 7: ФОРМАТЫ */}
       <section className="py-32 px-8">
         <div className="max-w-[680px] mx-auto text-left">
-          <h2 className="text-3xl md:text-4xl mb-12 font-serif tracking-tight text-[color:var(--color-fg)]">
-            Три точки входа. Выбираешь ту, что подходит сейчас.
+          <h2 className="text-3xl md:text-4xl mb-4 font-serif tracking-tight text-[color:var(--color-fg)]">
+            Три точки входа.
           </h2>
+          <div className="text-xl md:text-2xl text-[color:var(--color-muted)] font-light mb-12">
+            Выбирай ту, что подходит сейчас.
+          </div>
 
           <div className="space-y-16">
             <FormatItem title="Одна встреча · 50-60 минут">
@@ -173,7 +176,7 @@ export default function Home() {
           <div className="mt-20 text-lg md:text-xl font-light text-[color:var(--color-muted)] leading-relaxed space-y-2">
             <p>Одна встреча - от 45 000 ₸.</p>
             <p>Системная работа - по запросу.</p>
-            <p className="pt-4 text-sm tracking-widest uppercase text-[color:var(--color-faint)]">Работаю онлайн. Отвечаю лично.</p>
+            <p className="pt-4 text-sm tracking-widest text-[color:var(--color-faint)]">Работаю онлайн. Отвечаю лично.</p>
           </div>
         </div>
       </section>
