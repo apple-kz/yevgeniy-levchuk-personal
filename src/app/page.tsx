@@ -104,30 +104,28 @@ export default function Home() {
       {/* BLOCK 5: ПРОЦЕСС */}
       <section className="py-32 px-8 border-t border-[color:var(--color-line)]">
         <div className="max-w-[680px] mx-auto text-left">
-          <span className="text-xs tracking-widest uppercase text-[color:var(--color-faint)] font-semibold mb-6 block">Как это устроено</span>
           <h2 className="text-3xl md:text-4xl mb-6 font-serif tracking-tight text-[color:var(--color-fg)]">Не этапы. Движение - у каждого своё.</h2>
 
           <div className="mt-16 space-y-16">
             <ProcessStep num="01" title="Диагностика">
-              Понять, что происходит на самом деле - не то, что кажется. Без спешки
-              и без навязанных рамок. Иногда это самое ценное, что мы делаем вместе.
+              Понять, что происходит на самом деле.<br />
+              Без спешки. Без навязанных рамок.<br />
+              Иногда это и есть самое ценное.
             </ProcessStep>
 
             <ProcessStep num="02" title="Настройка">
-              Найти, где что-то разрегулировалось. В том, как ты думаешь, принимаешь
-              решения, относишься к себе. Работа именно с этим - не с симптомами поверх.
+              Найти, где что-то разрегулировалось - в мышлении, в решениях, в том, как ты относишься к себе.<br />
+              Работать именно с этим. Не с симптомами.
             </ProcessStep>
 
             <ProcessStep num="03" title="Сопровождение">
-              Я остаюсь рядом, пока идёт процесс. Изменения требуют времени - и
-              кто-то должен быть рядом без спешки и без оценки.
+              Я остаюсь рядом, пока идёт процесс.<br />
+              Изменения требуют времени - и кто-то должен быть рядом.
             </ProcessStep>
           </div>
 
-          <div className="mt-20 text-lg md:text-xl font-light text-[color:var(--color-muted)] space-y-4">
-            <p>- Я не даю домашних заданий, если ты их не хочешь.</p>
-            <p>- Я не говорю тебе, что делать.</p>
-            <p>- Я не исчезаю после первой встречи.</p>
+          <div className="mt-20 text-lg md:text-xl font-light text-[color:var(--color-muted)] leading-relaxed">
+            <p>Я не даю домашних заданий, если ты их не хочешь. Не говорю тебе, что делать. И не исчезаю после первой встречи.</p>
           </div>
         </div>
       </section>
