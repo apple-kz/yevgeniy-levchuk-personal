@@ -133,18 +133,16 @@ export default function Home() {
       {/* BLOCK 6: С КЕМ РАБОТАЮ */}
       <section className="py-32 px-8 bg-[color:var(--color-inverted-bg)] text-[color:var(--color-inverted-fg)] transition-colors duration-400">
         <div className="max-w-[680px] mx-auto text-left">
-          <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight text-[color:var(--color-inverted-fg)]">Не для всех - и это честно.</h2>
+          <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight text-[color:var(--color-inverted-fg)]">Это не для всех. И это нормально.</h2>
 
           <div className="text-lg md:text-xl font-light leading-relaxed space-y-6">
-            <p>Я работаю с теми, кто готов к честному разговору с собой.</p>
-            <p className="opacity-70">- Не с теми, кто ждёт, что я скажу, что делать.</p>
-            <p className="opacity-70">- Не с теми, кто пришёл за подтверждением уже готового решения.</p>
-            <p className="opacity-70">- Не с теми, кто хочет быстрый результат без готовности останавливаться.</p>
+            <p>Я работаю с теми, кто устал от правильных советов<br />и готов к честному разговору - прежде всего с собой.</p>
+            <p className="opacity-70">Если ты ищешь человека, который скажет что делать - я не тот. Если ищешь место, где можно наконец разобраться - возможно, тот.</p>
 
             <div className="mt-16 p-8 border border-[color:var(--color-line-inverted)]">
               <p className="font-serif text-2xl">
-                Если читая это ты думаешь «это точно про меня» - напиши. Первый
-                разговор ни к чему не обязывает.
+                Если что-то отозвалось - напиши.<br />
+                Первый разговор ни к чему не обязывает.
               </p>
             </div>
           </div>

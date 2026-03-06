@@ -22,13 +22,13 @@
   --text-base: #000000;
   --text-muted: #374151;
   --text-faint: #9CA3AF;
-  --bg-inverted: #0A0A0A;
+  --bg-inverted: #1C1C1C;
   --text-inverted: #FFFFFF;
   --bg-panel: #FFFFFF;
   --bg-alt: #F9FAFB;
   --border-base: #F3F4F6;
   --border-heavy: #E5E7EB;
-  --border-inverted: #1F2937;
+  --border-inverted: #2D2D2D;
 }
 
 /* 1. Книжный белый (Same as root for now) */
@@ -70,13 +70,13 @@ html[data-theme="theme-parchment"] {
   --text-base: #2C2A29;
   --text-muted: #5C5855;
   --text-faint: #A39E98;
-  --bg-inverted: #1A1918;
+  --bg-inverted: #1C1C1C;
   --text-inverted: #FDFBF7;
   --bg-panel: #FFFFFF;
   --bg-alt: #F4F1EB;
   --border-base: #EBE5D9;
   --border-heavy: #D6D0C4;
-  --border-inverted: #3D3936;
+  --border-inverted: #2D2D2D;
 }
 
 /* 4. Глубокий синий (Кабинет) */
