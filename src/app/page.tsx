@@ -89,24 +89,14 @@ export default function Home() {
           <span className="text-xs tracking-widest uppercase text-[color:var(--color-faint)] font-semibold mb-6 block">Моя роль</span>
           <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight text-[color:var(--color-fg)]">Я иду рядом. Не впереди.</h2>
 
-          <div className="text-lg md:text-xl text-[color:var(--color-muted)] font-light leading-relaxed space-y-8">
-            <p className="text-[color:var(--color-fg)] font-normal">Я не знаю, куда тебе идти. Ты знаешь.</p>
-            <p>
-              Моя работа - создать место, где ты можешь быть собой достаточно долго,
-              чтобы это наконец услышать. Без оценки. Без повестки. Без готовых
-              ответов.
-            </p>
-
-            <div className="my-16 pl-8 md:pl-10 border-l-2 border-[color:var(--color-line)] py-4">
-              <p className="text-2xl md:text-3xl font-serif text-[color:var(--color-muted)] leading-snug" style={{ fontFamily: 'Georgia, serif' }}>
-                Самый важный момент в нашей работе - когда ты впервые говоришь вслух
-                то, что давно знал. Именно тогда что-то меняется по-настоящему.
-              </p>
-            </div>
-
-            <p className="pt-4 font-normal text-[color:var(--color-fg)]">
-              Это твой путь. Я рядом, пока он нужен.
-            </p>
+          <div className="text-lg md:text-xl text-[color:var(--color-muted)] font-light leading-relaxed space-y-4">
+            <p>Самое важное в нашей работе случается тихо.</p>
+            <p>Человек говорит что-то - и вдруг останавливается.</p>
+            <p>Потому что впервые произносит это вслух.</p>
+            <p>Именно в этот момент что-то меняется.</p>
+            <p className="pt-6">Я не знаю, где этот момент будет у тебя.</p>
+            <p>Но я умею создавать пространство, где он становится возможным.</p>
+            <p className="pt-6 text-[color:var(--color-fg)] font-normal">Это твой путь. Я рядом.</p>
           </div>
         </div>
       </section>
