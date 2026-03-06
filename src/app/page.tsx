@@ -152,31 +152,28 @@ export default function Home() {
       {/* BLOCK 7: ФОРМАТЫ */}
       <section className="py-32 px-8">
         <div className="max-w-[680px] mx-auto text-left">
-          <span className="text-xs tracking-widest uppercase text-[color:var(--color-faint)] font-semibold mb-12 block">Форматы работы</span>
+          <h2 className="text-3xl md:text-4xl mb-12 font-serif tracking-tight text-[color:var(--color-fg)]">
+            Три точки входа. Выбираешь ту, что подходит сейчас.
+          </h2>
 
           <div className="space-y-16">
-            <FormatItem title="Одна встреча">
-              <p>50-60 минут. Чтобы разобраться в конкретной ситуации или почувствовать, как я работаю.</p>
+            <FormatItem title="Одна встреча · 50-60 минут">
+              <p>Чтобы разобраться в конкретной ситуации<br />или просто почувствовать, как я работаю.</p>
             </FormatItem>
 
-            <FormatItem title="Системная работа">
-              <p>От пяти встреч. Диагностика, настройка, сопровождение. Для тех, кто готов идти вглубь и не торопится.</p>
+            <FormatItem title="Системная работа · от 5 встреч">
+              <p>Диагностика, настройка, сопровождение.<br />Для тех, кто готов идти вглубь - без спешки.</p>
             </FormatItem>
 
-            <FormatItem title="Встреча по бизнесу">
-              <p>90 минут. Для руководителей и предпринимателей - взгляд со стороны без корпоративного языка и готовых решений.</p>
+            <FormatItem title="Для руководителей · 90 минут">
+              <p>Взгляд со стороны на бизнес-задачу или решение.<br />Без корпоративного языка. Без готовых ответов.</p>
             </FormatItem>
           </div>
 
-          <div className="mt-16 text-sm tracking-widest uppercase text-[color:var(--color-faint)] pb-4 border-b border-[color:var(--color-line)] inline-block">
-            Одна встреча - от 50 000 ₸. Системная работа - по запросу. Онлайн. Отвечаю лично.
-          </div>
-
-          <div className="mt-12 text-sm text-[color:var(--color-faint)] font-light">
-            <p>Работаете с командой или ищете внешний взгляд на бизнес-задачу?</p>
-            <a href="/business" className="inline-block mt-2 hover:text-[color:var(--color-fg)] transition-colors">
-              → Страница для бизнеса
-            </a>
+          <div className="mt-20 text-lg md:text-xl font-light text-[color:var(--color-muted)] leading-relaxed space-y-2">
+            <p>Одна встреча - от 45 000 ₸.</p>
+            <p>Системная работа - по запросу.</p>
+            <p className="pt-4 text-sm tracking-widest uppercase text-[color:var(--color-faint)]">Работаю онлайн. Отвечаю лично.</p>
           </div>
         </div>
       </section>
