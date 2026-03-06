@@ -231,10 +231,12 @@ export default function Home() {
       {/* BLOCK 9: КОНТАКТЫ & ПОДВАЛ */}
       <footer id="contact" className="pt-32 pb-16 px-8 border-t border-[color:var(--color-line)]">
         <div className="max-w-[680px] mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl mb-10 font-serif tracking-tight text-[color:var(--color-fg)]">Просто напиши.</h2>
+          <h2 className="text-3xl md:text-4xl mb-10 font-serif tracking-tight text-[color:var(--color-fg)]">
+            Если дочитал до этого места - значит, что-то откликнулось.
+          </h2>
           <div className="text-lg font-light text-[color:var(--color-muted)] mb-16 space-y-2">
-            <p>Если что-то отозвалось - этого достаточно.</p>
-            <p>Я отвечаю лично. Без менеджеров, без воронок, без автоответов.</p>
+            <p>Этого достаточно. Напиши.</p>
+            <p>Я отвечаю сам.</p>
           </div>
 
           <div className="flex flex-col items-center gap-6 mb-24">
