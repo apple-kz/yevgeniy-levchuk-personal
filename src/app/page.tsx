@@ -43,30 +43,15 @@ export default function Home() {
       {/* BLOCK 2: УЗНАВАНИЕ */}
       <section className="py-32 px-8">
         <div className="max-w-[680px] mx-auto">
-          <h2 className="text-4xl md:text-5xl mb-12 font-serif tracking-tight text-[color:var(--color-fg)]">
-            Ты ждёшь, что однажды всё станет ясно само.
-          </h2>
-          <div className="text-xl text-[color:var(--color-muted)] font-light leading-relaxed space-y-6">
-            <p>
-              Что придёт правильный момент. Нужная книга. Нужный человек.<br />
-              И тогда - щелчок, и всё встанет на свои места.
+          <div className="text-xl md:text-2xl text-[color:var(--color-muted)] font-light leading-relaxed space-y-4">
+            <p>Ты ждёшь правильного момента.</p>
+            <p>Нужной книги. Нужного человека.</p>
+            <p>Того самого щелчка.</p>
+            <p className="pt-8 text-[color:var(--color-fg)] font-normal">Я его не обещаю.</p>
+            <p className="pt-2">
+              Я создаю место, где можно наконец сказать себе правду —<br />
+              без спешки и без чужих ожиданий.
             </p>
-            <p className="pt-8">
-              Я не обещаю щелчка.
-            </p>
-            <p>
-              Я предлагаю кое-что другое - пространство, в котором можно наконец
-              сказать себе правду.
-            </p>
-          </div>
-
-          <div className="mt-24 pt-12 border-t border-[color:var(--color-line)]">
-            <div className="pl-8 md:pl-10 border-l-2 border-[color:var(--color-line-heavy)] py-4">
-              <p className="text-2xl md:text-3xl font-serif text-[color:var(--color-muted)] leading-snug" style={{ fontFamily: 'Georgia, serif' }}>
-                «Чаще всего мы уже знаем.<br />
-                Просто страшно произнести это вслух. Даже себе.»
-              </p>
-            </div>
           </div>
         </div>
       </section>
