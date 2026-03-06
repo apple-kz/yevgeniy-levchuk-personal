@@ -232,10 +232,10 @@ export default function Home() {
       <footer id="contact" className="pt-32 pb-16 px-8 border-t border-[color:var(--color-line)]">
         <div className="max-w-[680px] mx-auto text-center">
           <h2 className="text-3xl md:text-4xl mb-10 font-serif tracking-tight text-[color:var(--color-fg)]">
-            Дочитал - уже достаточно.
+            Если что-то откликнулось - напиши.
           </h2>
           <div className="text-lg font-light text-[color:var(--color-muted)] mb-16 space-y-2">
-            <p>Напиши. Я отвечу сам.</p>
+            <p>Я отвечаю лично.</p>
           </div>
 
           <div className="flex flex-col items-center gap-6 mb-24">
