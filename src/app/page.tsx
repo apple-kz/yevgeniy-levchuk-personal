@@ -141,7 +141,7 @@ export default function Home() {
 
             <div className="mt-16 p-8 border border-[color:var(--color-line-inverted)]">
               <p className="font-serif text-2xl">
-                Если что-то отозвалось - напиши.<br />
+                Если это про тебя - давай начнём разговор.<br />
                 Первый разговор ни к чему не обязывает.
               </p>
             </div>
