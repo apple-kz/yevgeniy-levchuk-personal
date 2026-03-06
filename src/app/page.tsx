@@ -184,7 +184,9 @@ export default function Home() {
       {/* BLOCK 8: FAQ */}
       <section className="py-32 px-8 bg-[color:var(--color-alt)]">
         <div className="max-w-[680px] mx-auto text-left">
-          <span className="text-xs tracking-widest uppercase text-[color:var(--color-faint)] font-semibold mb-12 block">Частые вопросы</span>
+          <h2 className="text-3xl md:text-4xl mb-12 font-serif tracking-tight text-[color:var(--color-fg)]">
+            Вопросы, которые обычно возникают
+          </h2>
           <div className="space-y-12">
             <div>
               <h3 className="text-xl mb-3 font-medium text-[color:var(--color-fg)]">Ты коуч или психолог?</h3>
@@ -201,25 +203,25 @@ export default function Home() {
             <div>
               <h3 className="text-xl mb-3 font-medium text-[color:var(--color-fg)]">Что будет на первой встрече?</h3>
               <p className="text-lg text-[color:var(--color-muted)] font-light leading-relaxed">
-                Разговор. Я буду слушать - без оценки и без повестки. Ты сам почувствуешь, есть ли смысл продолжать.
+                Разговор. Я слушаю - без оценки и без повестки. К концу встречи ты сам почувствуешь, есть ли смысл продолжать.
               </p>
             </div>
             <div>
               <h3 className="text-xl mb-3 font-medium text-[color:var(--color-fg)]">Я не знаю, с чем именно прийти. Это нормально?</h3>
               <p className="text-lg text-[color:var(--color-muted)] font-light leading-relaxed">
-                Да. Большинство приходит именно так - с ощущением, что что-то не так, но без чёткого запроса. Это хорошая точка входа.
+                Да. Большинство приходит именно так. Отсутствие чёткого запроса - это не проблема. Это честная точка входа.
               </p>
             </div>
             <div>
-              <h3 className="text-xl mb-3 font-medium text-[color:var(--color-fg)]">Сколько времени займёт работа?</h3>
+              <h3 className="text-xl mb-3 font-medium text-[color:var(--color-fg)]">Сколько времени это займёт?</h3>
               <p className="text-lg text-[color:var(--color-muted)] font-light leading-relaxed">
-                Зависит от запроса. Иногда одна встреча даёт ясность. Иногда нужны месяцы. Я не тороплю и не растягиваю.
+                По-разному. Иногда одна встреча даёт ясность. Иногда нужны месяцы. Я не тороплю и не растягиваю.
               </p>
             </div>
             <div>
-              <h3 className="text-xl mb-3 font-medium text-[color:var(--color-fg)]">Ты работаешь онлайн?</h3>
+              <h3 className="text-xl mb-3 font-medium text-[color:var(--color-fg)]">Работаешь онлайн?</h3>
               <p className="text-lg text-[color:var(--color-muted)] font-light leading-relaxed">
-                Да. Видео или голос - как тебе удобнее.
+                Да. Видео или голос - как удобнее.
               </p>
             </div>
           </div>
