@@ -10,6 +10,13 @@ function ClientThemeProvider({
     const { theme } = useTheme()
 
     React.useEffect(() => {
+        // Ensure the page starts at the top on initial load
+        if (typeof window !== 'undefined') {
+            window.scrollTo(0, 0)
+        }
+    }, [])
+
+    React.useEffect(() => {
         if (!theme) return
 
         // Next-themes controls html class, but we want to make sure the right color class 

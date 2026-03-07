@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="w-full h-full text-center relative">
+    <main className="w-full min-h-screen text-center relative">
       {/* HEADER */}
       <header className="py-16 px-8 relative z-10">
         <div className="max-w-[680px] mx-auto flex justify-between items-center sm:block relative">
@@ -172,7 +172,7 @@ export default function Home() {
               <p>Диагностика, настройка, сопровождение.<br />Для тех, кто готов идти вглубь - без спешки.</p>
             </FormatItem>
 
-            <FormatItem title="Для руководителей · 90 минут">
+            <FormatItem title="Встреча по бизнесу · 90 минут">
               <p>Взгляд со стороны на бизнес-задачу или решение.<br />Без корпоративного языка. Без готовых ответов.</p>
             </FormatItem>
           </div>
