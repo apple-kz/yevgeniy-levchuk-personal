@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ShieldCheck } from "lucide-react";
 import ContactForm from "../components/contact-form";
 
 export default function Home() {
@@ -247,16 +247,23 @@ export default function Home() {
             <ContactForm />
           </div>
 
-          <div className="mt-32 max-w-[500px] mx-auto text-left space-y-6 pt-16 border-t border-[color:var(--color-line)]">
-            <h3 className="text-xs tracking-[0.2em] font-medium uppercase text-[color:var(--color-fg)]">NDA / Конфиденциальность</h3>
-            <div className="text-sm font-light text-[color:var(--color-muted)] leading-relaxed space-y-4">
-              <p>1. Все данные, предоставленные через этот сайт, используются исключительно для связи и не передаются третьим лицам.</p>
-              <p>2. Любая информация, озвученная в ходе личных консультаций, является строго конфиденциальной и защищена режимом NDA.</p>
-              <p>3. Я не веду аудио- или видеозапись встреч без вашего предварительного письменного согласия.</p>
-              <p>4. Вы имеете право отозвать свой запрос и потребовать удаления ваших данных в любой момент.</p>
-            </div>
+          <div className="mt-32 max-w-[500px] mx-auto text-left pt-16 border-t border-[color:var(--color-line)]">
+            <details className="group cursor-pointer">
+              <summary className="list-none flex items-center gap-3 text-xs tracking-[0.2em] font-medium uppercase text-[color:var(--color-fg)] hover:opacity-70 transition-opacity">
+                <ShieldCheck size={14} className="text-[color:var(--color-faint)]" />
+                NDA / Конфиденциальность
+                <span className="ml-auto text-[10px] text-[color:var(--color-faint)] group-open:rotate-180 transition-transform">↓</span>
+              </summary>
 
-            <div className="text-[10px] tracking-wider text-[color:var(--color-faint)] font-light pt-8">
+              <div className="mt-6 text-sm font-light text-[color:var(--color-muted)] leading-relaxed space-y-4">
+                <p>1. Все данные, предоставленные через этот сайт, используются исключительно для связи и не передаются третьим лицам.</p>
+                <p>2. Любая информация, озвученная в ходе личных консультаций, является строго конфиденциальной и защищена режимом NDA.</p>
+                <p>3. Я не веду аудио- или видеозапись встреч без вашего предварительного письменного согласия.</p>
+                <p>4. Вы имеете право отозвать свой запрос и потребовать удаления ваших данных в любой момент.</p>
+              </div>
+            </details>
+
+            <div className="text-[10px] tracking-wider text-[color:var(--color-faint)] font-light pt-12">
               © {new Date().getFullYear()} Евгений Левчук
             </div>
           </div>
