@@ -208,7 +208,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl mb-3 font-medium text-[color:var(--color-fg)]">Что будет на первой встрече?</h3>
               <p className="text-lg text-[color:var(--color-muted)] font-light leading-relaxed">
-                Разговор. Я слушаю - без оценки и без повестки. К концу встречи ты сам почувствуешь, есть ли смысл продолжать.
+                Разговор. Я слушаю - без оценки и без повестки. К концу встречи ты почувствуешь, есть ли смысл продолжать.
               </p>
             </div>
             <div>
