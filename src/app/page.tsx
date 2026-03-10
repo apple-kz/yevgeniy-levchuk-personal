@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { ArrowRight, ShieldCheck } from "lucide-react";
+import { ArrowRight, ShieldCheck, Instagram } from "lucide-react";
 import ContactForm from "../components/contact-form";
 
 export default function Home() {
@@ -245,6 +245,18 @@ export default function Home() {
 
           <div className="mb-24">
             <ContactForm />
+          </div>
+
+          <div className="mb-24 pt-8">
+            <a
+              href="https://instagram.com/sana.psy.kz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 text-sm font-light text-[color:var(--color-muted)] hover:text-[color:var(--color-fg)] transition-colors group"
+            >
+              <Instagram size={16} className="text-[color:var(--color-faint)] group-hover:text-[color:var(--color-fg)] transition-colors" />
+              <span>Концептуальные заметки и поиск смыслов — в проекте <span className="font-medium underline underline-offset-4 decoration-[color:var(--color-line-heavy)]">SANA</span></span>
+            </a>
           </div>
 
           <div className="mt-32 max-w-[500px] mx-auto text-left pt-16 border-t border-[color:var(--color-line)]">
