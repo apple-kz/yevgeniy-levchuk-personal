@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { ArrowRight } from "lucide-react";
+import ContactForm from "../components/contact-form";
 
 export default function Home() {
   return (
@@ -242,13 +243,8 @@ export default function Home() {
             <p>Я отвечаю лично.</p>
           </div>
 
-          <div className="flex flex-col items-center gap-6 mb-24">
-            <a href="https://t.me/elevchuk" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg font-medium hover:opacity-50 transition-opacity text-[color:var(--color-fg)]">
-              Telegram <ArrowRight size={18} />
-            </a>
-            <a href="https://wa.me/77055311672" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg font-medium hover:opacity-50 transition-opacity text-[color:var(--color-fg)]">
-              WhatsApp <ArrowRight size={18} />
-            </a>
+          <div className="mb-24">
+            <ContactForm />
           </div>
 
           <div className="text-xs tracking-wider text-[color:var(--color-faint)] font-light mt-32">
