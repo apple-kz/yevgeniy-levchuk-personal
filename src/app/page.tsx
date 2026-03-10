@@ -247,9 +247,18 @@ export default function Home() {
             <ContactForm />
           </div>
 
-          <div className="text-xs tracking-wider text-[color:var(--color-faint)] font-light mt-32">
-            Конфиденциальность - основа работы, не формальность.<br /><br />
-            © {new Date().getFullYear()} Евгений Левчук
+          <div className="mt-32 max-w-[500px] mx-auto text-left space-y-6 pt-16 border-t border-[color:var(--color-line)]">
+            <h3 className="text-xs tracking-[0.2em] font-medium uppercase text-[color:var(--color-fg)]">NDA / Конфиденциальность</h3>
+            <div className="text-sm font-light text-[color:var(--color-muted)] leading-relaxed space-y-4">
+              <p>1. Все данные, предоставленные через этот сайт, используются исключительно для связи и не передаются третьим лицам.</p>
+              <p>2. Любая информация, озвученная в ходе личных консультаций, является строго конфиденциальной и защищена режимом NDA.</p>
+              <p>3. Я не веду аудио- или видеозапись встреч без вашего предварительного письменного согласия.</p>
+              <p>4. Вы имеете право отозвать свой запрос и потребовать удаления ваших данных в любой момент.</p>
+            </div>
+
+            <div className="text-[10px] tracking-wider text-[color:var(--color-faint)] font-light pt-8">
+              © {new Date().getFullYear()} Евгений Левчук
+            </div>
           </div>
         </div>
       </footer>
