@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { Redis } from '@upstash/redis';
 
 export async function POST(request: Request) {
     try {
@@ -36,6 +37,23 @@ export async function POST(request: Request) {
             const errorData = await response.json();
             console.error('Telegram API error:', errorData);
             return NextResponse.json({ error: 'Failed to send message' }, { status: 500 });
+        }
+
+        // Track the successful lead in Redis
+        const redis = (process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN)
+            ? new Redis({
+                url: process.env.UPSTASH_REDIS_REST_URL,
+                token: process.env.UPSTASH_REDIS_REST_TOKEN,
+            })
+            : null;
+
+        if (redis) {
+            try {
+                const today = new Date().toISOString().split('T')[0];
+                await redis.incr(`stats:leads:${today}`);
+            } catch (err) {
+                console.error('Failed to update lead stat', err);
+            }
         }
 
         return NextResponse.json({ success: true });
