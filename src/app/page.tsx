@@ -22,7 +22,7 @@ export default function Home() {
           </h1>
 
           <div className="text-xl md:text-2xl text-[color:var(--color-muted)] font-light mb-16 space-y-3 leading-relaxed md:whitespace-nowrap">
-            <p>Ты устал от советов, техник и мотивации?</p>
+            <p>Устали от советов, техник и мотивации?</p>
             <p>Я работаю иначе - медленно, внимательно, без готовых ответов.</p>
             <p>Только честная работа с тем, что есть.</p>
           </div>
