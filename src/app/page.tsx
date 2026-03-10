@@ -266,7 +266,7 @@ export default function Home() {
                 </svg>
                 <Instagram size={16} style={{ stroke: 'url(#ig-gradient)' }} className="opacity-80 group-hover:opacity-100 transition-opacity" />
               </div>
-              <span>Концептуальные заметки и поиск смыслов — в проекте <span className="font-medium underline underline-offset-4 decoration-[color:var(--color-line-heavy)]">SANA</span></span>
+              <span>Концептуальные заметки и поиск смыслов - в проекте <span className="font-medium underline underline-offset-4 decoration-[color:var(--color-line-heavy)]">SANA</span></span>
             </a>
           </div>
 
