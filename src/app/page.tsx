@@ -254,7 +254,18 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 text-sm font-light text-[color:var(--color-muted)] hover:text-[color:var(--color-fg)] transition-colors group"
             >
-              <Instagram size={16} className="text-[color:var(--color-faint)] group-hover:text-[color:var(--color-fg)] transition-colors" />
+              <div className="relative w-4 h-4 overflow-visible">
+                <svg width="0" height="0" className="absolute">
+                  <linearGradient id="ig-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
+                    <stop stopColor="#f09433" offset="0%" />
+                    <stop stopColor="#e6683c" offset="25%" />
+                    <stop stopColor="#dc2743" offset="50%" />
+                    <stop stopColor="#cc2366" offset="75%" />
+                    <stop stopColor="#bc1888" offset="100%" />
+                  </linearGradient>
+                </svg>
+                <Instagram size={16} style={{ stroke: 'url(#ig-gradient)' }} className="opacity-80 group-hover:opacity-100 transition-opacity" />
+              </div>
               <span>Концептуальные заметки и поиск смыслов — в проекте <span className="font-medium underline underline-offset-4 decoration-[color:var(--color-line-heavy)]">SANA</span></span>
             </a>
           </div>
