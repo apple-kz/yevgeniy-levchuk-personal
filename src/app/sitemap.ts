@@ -5,10 +5,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1,
+      url: "https://www.elevchuk.online",
+      lastModified: new Date().toISOString(),
     },
   ];
 }
