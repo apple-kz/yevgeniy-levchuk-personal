@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://yevgeniy-levchuk.com"; // Замените на ваш основной домен
+  const baseUrl = "https://www.elevchuk.online";
 
   return {
     rules: {

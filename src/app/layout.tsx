@@ -12,7 +12,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yevgeniy-levchuk-personal.vercel.app"), // Fallback to Vercel URL
+  metadataBase: new URL("https://www.elevchuk.online"),
   title: "Евгений Левчук - Пространство для честного разговора",
   description: "Место для тех, кто устал от шума и готовых ответов. Помогаю найти свои смыслы в моменты, когда старые правила перестали работать. Без спешки. Без чужих схем. | Казахстан",
   keywords: ["коуч для руководителей", "бизнес ментор казахстан", "психологическое сопровождение бизнеса", "коучинг для предпринимателей алматы", "астана", "личный эдвайзер", "Евгений Левчук", "executive coaching kazakhstan"],
